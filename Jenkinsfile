@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building...'
+        sh 'echo "Building is finishing"'
       }
     }
     stage('Test Firefox') {
